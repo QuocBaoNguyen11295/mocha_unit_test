@@ -1,0 +1,30 @@
+{
+  "name": "mocha_unit_test",
+  "version": "1.0.0",
+  "description": "Mocha unit test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/timeRequiredToBuy.test.js",
+    "coverage": "nyc --reporter=text mocha test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuocBaoNguyen11295/mocha_unit_test.git"
+  },
+  "keywords": [
+    "js",
+    "mocha"
+  ],
+  "author": "Quoc Bao Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuocBaoNguyen11295/mocha_unit_test/issues"
+  },
+  "homepage": "https://github.com/QuocBaoNguyen11295/mocha_unit_test#readme",
+  "devDependencies": {
+    "mocha": "^10.4.0"
+  },
+  "dependencies": {
+    "nyc": "^15.1.0"
+  }
+}
